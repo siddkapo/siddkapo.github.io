@@ -38,13 +38,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography {
   padding-left: 2rem;
-  list-style-type: decimal;
-  list-style-position: outside;
   margin-top: 0;
+  list-style-type: decimal !important;
+  list-style-position: outside;
 }
 
 .publications ol.bibliography li {
   /* min-height: 110px;*/
+  display: list-item !important; 
   margin-bottom: 0.5rem;
 }
 
