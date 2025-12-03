@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a first year CS Ph.D student at the Kahlert School of Computing, University of Utah, where I am currently advised by Prof. Pratik Soni. Before starting my Ph.D, I was a Research Associate at the Cryptography and Information Security (CrIS) Lab at the Indian Institute of Science, Bengaluru under Prof. Arpita Patra. Prior to that, I worked as a Software Developer at Amazon for 2.5 years. I completed my B.E. in CS from the Birla Institute of Technology and Science, Pilani in 2022.
+I am a first year CS PhD student at the Kahlert School of Computing, University of Utah, where I am currently advised by Prof. Pratik Soni. Before starting my PhD, I was a Research Associate at the Cryptography and Information Security (CrIS) Lab at the Indian Institute of Science, Bengaluru under Prof. Arpita Patra. Prior to that, I worked as a Software Developer at Amazon for 2.5 years. I completed my BE in CS from the Birla Institute of Technology and Science, Pilani in 2022.
 
 ## Research Interests
 
