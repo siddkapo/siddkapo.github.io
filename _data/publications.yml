@@ -1,11 +1,19 @@
 main:
 
-  - title: WIP
-    # authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    # conference_short: MICCAI
-    # conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    # pdf: https://arxiv.org/pdf/2306.00988.pdf
+  - title: GraSP: Secure Collaborative Graph Processing Made Scalable
+    authors: Siddharth Kapoor, Nishat Koti, Varsha Bhat Kukkala, Arpita Patra, Bhavish Raj Gopal
+    # conference_short: VLDB
+    # conference: Under Submission
+    pdf: https://eprint.iacr.org/2025/590
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    # image: ./assets/img/teaser_example_2.png
-    # notes: Early Accept
+    notes: Under Submission
+
+  - title: SMILIES: Secure eMaIL InfrastructurE and Services
+    authors: Siddharth Kapoor, Shyam Murthy, Sriram Murthy, Arpita Patra, Raghavan Ramesh, Bhavish Raj Gopal
+    # conference_short: INFOCOM
+    # conference: Under Submission
+    # pdf: https://eprint.iacr.org/2025/590
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    notes: Under Submission

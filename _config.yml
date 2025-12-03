@@ -2,7 +2,6 @@
 title: Siddharth Kapoor
 position: Ph.D. Student
 affiliation: The University of Utah
-email: u&#49;592376&#64;um&#97;&#105;&#108;&#46;uta&#104;&#46;edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -13,16 +12,16 @@ email: u&#49;592376&#64;um&#97;&#105;&#108;&#46;uta&#104;&#46;edu
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=hhlgR2sAAAAJ
-# cv_link: assets/files/curriculum_vitae.pdf
+cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/siddkapo
 linkedin: https://www.linkedin.com/in/kapoor-siddharth
 # twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-# avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/pikapi.png
+favicon: ./assets/img/icon.png
+favicon_dark: ./assets/img/icon.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
