@@ -1,6 +1,6 @@
 main:
 
-  - title: GraSP: Secure Collaborative Graph Processing Made Scalable
+  - title: "GraSP: Secure Collaborative Graph Processing Made Scalable"
     authors: Siddharth Kapoor, Nishat Koti, Varsha Bhat Kukkala, Arpita Patra, Bhavish Raj Gopal
     # conference_short: VLDB
     # conference: Under Submission
@@ -9,7 +9,7 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     notes: Under Submission
 
-  - title: SMILIES: Secure eMaIL InfrastructurE and Services
+  - title: "SMILIES: Secure eMaIL InfrastructurE and Services"
     authors: Siddharth Kapoor, Shyam Murthy, Sriram Murthy, Arpita Patra, Raghavan Ramesh, Bhavish Raj Gopal
     # conference_short: INFOCOM
     # conference: Under Submission
