@@ -12,4 +12,4 @@ I am broadly interested in cryptography and theoretical computer science. My cur
 
 {% include_relative _includes/publications.md %}
 
-<!-- {% include_relative _includes/services.md %} -->
+{% include_relative _includes/services.md %}
