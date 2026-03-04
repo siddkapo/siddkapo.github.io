@@ -79,14 +79,14 @@
             e.preventDefault();
 
             // Decode each piece
-            const id = decodeBase64(id1);
+            const idstr = decodeBase64(id);
             const atstr = decodeBase64(at);
             const p2 = decodeBase64(b2);
             const dotstr = decodeBase64(dot);
             const p3 = decodeBase64(b3);
 
               // Construct the actual email
-            const email = `${id}${atstr}${p2}${dotstr}${p3}`;
+            const email = `${idstr}${atstr}${p2}${dotstr}${p3}`;
 
             // Update the link
             this.textContent = email; this.href = "mailto:" + email;
