@@ -59,8 +59,7 @@
 
         <script>
           // Base64 fragments of each email part
-          const id1 = "a2Fwb29y";
-          const id2 = "c2lkZGhhcnRo";
+          const id = "a2Fwb29yLnNpZGRoYXJ0aA==";
           const at = "QA==" // [at]
           const b2 = "dXRhaA=="; // [utah]
           const dot = "Lg==" // [dot]
@@ -80,15 +79,14 @@
             e.preventDefault();
 
             // Decode each piece
-            const id1str = decodeBase64(id1);
-            const id2str = decodeBase64(id2);
+            const id = decodeBase64(id1);
             const atstr = decodeBase64(at);
             const p2 = decodeBase64(b2);
             const dotstr = decodeBase64(dot);
             const p3 = decodeBase64(b3);
 
               // Construct the actual email
-            const email = `${id1}${dotstr}${id2}${atstr}${p2}${dotstr}${p3}`;
+            const email = `${id}${atstr}${p2}${dotstr}${p3}`;
 
             // Update the link
             this.textContent = email; this.href = "mailto:" + email;
