@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Siddharth Kapoor</title>
+		<link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
+	</head>
+	<body>
+
+		<img src="assets/img/itsame.png" width="200px" align="right"/>
+
+		<h1> Siddharth Kapoor </h1>
+		<p>
+			<i>
+				PhD Student <br>
+				Kahlert School of Computing <br>
+				The University of Utah<br>
+				<a href="#" id="revealEmail"> Click to reveal email</a> <br>
+				<a href="assets/files/CV.pdf"> CV</a> |
+				<a href="https://www.linkedin.com/in/kapoor-siddharth" target="_blank"> LinkedIn</a> |
+				<a href="https://scholar.google.com/citations?user=hhlgR2sAAAAJ" target="_blank"> Google Scholar</a> |
+				<a href="https://github.com/siddkapo?tab=repositories" target="_blank"> GitHub</a> <br>
+			</i>
+		</p>
+
+		<br><br><br><hr>
+
+		<h2> About Me </h3>
+		<p>
+			I am a CS PhD student at the Kahlert School of Computing, University of Utah, where I am currently advised by <a href="https://users.cs.utah.edu/~psoni/"> Prof. Pratik Soni</a>. Before starting my PhD, I was a Research Associate in the <a href="https://cris.csa.iisc.ac.in/"> Cryptography and Information Security (CrIS) Lab</a> at the Indian Institute of Science, Bengaluru under <a href="https://www.csa.iisc.ac.in/~arpita/"> Prof. Arpita Patra</a>. Prior to that, I worked as a Software Developer at Amazon for over 2 years. I completed my BE in CS from BITS Pilani in 2022.
+		</p>
+
+		<hr>
+
+		<h2> Research Interests </h3>
+		<p>
+			I am broadly interested in all aspects of cryptography and some theoretical computer science (mostly complexity and coding theory). My current research is primarily focused on secure multi party computation (MPC), post-quantum cryptography (PQC), and blockchains. As an RA at IISc, I worked on implementing MPC protocols for problems related to privacy preserving machine learning and secure graph computation.
+		</p>
+
+		<hr>
+
+		<h2> Publications </h2>
+
+		<h4> Preprints / Under Submission </h4>
+		<ol>
+			<li>
+				Dishonest-Majority Fair MPC from Well Studied Assumptions <br>
+				Siddharth Kapoor, Pratik Soni
+			</li>
+			<li>
+				Making Maliciously Secure Graph Computation Practical <br>
+				Siddharth Kapoor, Shravani Patil, Arpita Patra, Bhavish Raj Gopal
+			</li>
+			<li>
+				<a href="https://eprint.iacr.org/2025/590"> GraSP: Secure Collaborative Graph Processing Made Scalable</a> <br>
+				Siddharth Kapoor, Nishat Koti, Varsha Bhat Kukkala, Arpita Patra, Bhavish Raj Gopal
+			</li>
+			<li>
+				SMILIES: Secure eMaIL InfrastructurE and Services <br>
+				Siddharth Kapoor, Shyam Murthy, Sriram Murthy, Arpita Patra, Bhavish Raj Gopal, Raghavan Ramesh
+			</li>
+		</ol>
+
+		<hr>
+
+		<h2> Service </h3>
+		<p>
+			<b> External Reviewer: </b>
+			FC 2027
+		</p>
+
+		<hr>
+
+		<i> Last Updated: 6 Nov 2026 </i>
+
+        <script>
+			const id = "a2Fwb29yLnNpZGRoYXJ0aA==";
+			const at = "QA==" // [at]
+			const b2 = "dXRhaA=="; // [utah]
+			const dot = "Lg==" // [dot]
+			const b3 = "ZWR1"; // [edu]
+
+			function decodeBase64(b64) {
+				const binary = atob(b64);
+				const bytes = new Uint8Array(binary.length);
+				for (let i = 0; i < binary.length; i++) {
+					bytes[i] = binary.charCodeAt(i);
+				}
+				return new TextDecoder().decode(bytes);
+			}
+
+			document.getElementById("revealEmail").addEventListener("click", function (e) {
+				e.preventDefault();
+
+				const idstr = decodeBase64(id);
+				const atstr = decodeBase64(at);
+				const p2 = decodeBase64(b2);
+				const dotstr = decodeBase64(dot);
+				const p3 = decodeBase64(b3);
+
+				const email = `${idstr}${atstr}${p2}${dotstr}${p3}`;
+
+				this.textContent = email; this.href = "mailto:" + email;
+			});
+        </script>
+	</body>
+</html>
